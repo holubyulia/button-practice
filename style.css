@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    font-family: sans-serif;
+    font-size: 18px;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    margin-top: 10%;
+    height: 50%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.image{
+    height: 50vh;
+    width: 100%;
+    border-radius: 2px;
+}
+
+.btn{
+    border: none;
+    background-color: lightblue;
+    color: lightslategray;
+    height: 10%;
+    padding: 2%;
+    margin: 2% 0 0 1%;
+}
+.btn:disabled{
+    color: white;
+    background-color: darkgray;
+}
